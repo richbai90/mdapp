@@ -6,11 +6,11 @@ import {AppBar} from 'material-ui'
 storiesOf('Basic Header')
     .add('With Menu', () => (
         <MuiThemeProvider>
-            <AppBar title="MdApp" />
+            <AppBar title="Medical App" />
         </MuiThemeProvider>
     ))
     .add('Without Menu', () => (
         <MuiThemeProvider>
-            <AppBar title="MdApp" iconStyleLeft={{display: 'none'}} />
+            <AppBar title="Medical App" iconStyleLeft={{display: 'none'}} />
         </MuiThemeProvider>
     ));
