@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/opt/nvm/versions/node/v4.2.2/bin/node',
+1 verbose cli   '/usr/local/opt/nvm/versions/node/v4.2.2/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'storybook' ]
+2 info using npm@3.5.3
+3 info using node@v4.2.2
+4 verbose run-script [ 'prestorybook', 'storybook', 'poststorybook' ]
+5 info lifecycle mdapp-storybook@1.0.0~prestorybook: mdapp-storybook@1.0.0
+6 silly lifecycle mdapp-storybook@1.0.0~prestorybook: no script for prestorybook, continuing
+7 info lifecycle mdapp-storybook@1.0.0~storybook: mdapp-storybook@1.0.0
+8 verbose lifecycle mdapp-storybook@1.0.0~storybook: unsafe-perm in lifecycle true
+9 verbose lifecycle mdapp-storybook@1.0.0~storybook: PATH: /usr/local/opt/nvm/versions/node/v4.2.2/lib/node_modules/npm/bin/node-gyp-bin:/Users/rich/WebstormProjects/mdapp-storybook/node_modules/.bin:/usr/local/opt/nvm/versions/node/v4.2.2/bin:/usr/local/sbin:/Users/rich/.rvm/gems/ruby-2.3.1/bin:/Users/rich/.rvm/gems/ruby-2.3.1@global/bin:/Users/rich/.rvm/rubies/ruby-2.3.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/MacGPG2/bin:/Users/rich/.android-sdk/tools:/Users/rich/.android-sdk/platforms:/Users/rich/.android-sdk/platform-tools:/Users/rich/.android-sdk/build-tools/22.0.1:/Users/rich/.rvm/bin
+10 verbose lifecycle mdapp-storybook@1.0.0~storybook: CWD: /Users/rich/WebstormProjects/mdapp-storybook
+11 silly lifecycle mdapp-storybook@1.0.0~storybook: Args: [ '-c', 'start-storybook -p 9001' ]
+12 silly lifecycle mdapp-storybook@1.0.0~storybook: Returned: code: 1  signal: null
+13 info lifecycle mdapp-storybook@1.0.0~storybook: Failed to exec storybook script
+14 verbose stack Error: mdapp-storybook@1.0.0 storybook: `start-storybook -p 9001`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/usr/local/opt/nvm/versions/node/v4.2.2/lib/node_modules/npm/lib/utils/lifecycle.js:232:16)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at EventEmitter.emit (events.js:172:7)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/local/opt/nvm/versions/node/v4.2.2/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at ChildProcess.emit (events.js:172:7)
+14 verbose stack     at maybeClose (internal/child_process.js:818:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+15 verbose pkgid mdapp-storybook@1.0.0
+16 verbose cwd /Users/rich/WebstormProjects/mdapp-storybook
+17 error Darwin 15.5.0
+18 error argv "/usr/local/opt/nvm/versions/node/v4.2.2/bin/node" "/usr/local/opt/nvm/versions/node/v4.2.2/bin/npm" "run" "storybook"
+19 error node v4.2.2
+20 error npm  v3.5.3
+21 error code ELIFECYCLE
+22 error mdapp-storybook@1.0.0 storybook: `start-storybook -p 9001`
+22 error Exit status 1
+23 error Failed at the mdapp-storybook@1.0.0 storybook script 'start-storybook -p 9001'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the mdapp-storybook package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     start-storybook -p 9001
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs mdapp-storybook
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls mdapp-storybook
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]

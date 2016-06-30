@@ -1,0 +1,33 @@
+{
+  "name": "mdapp-storybook",
+  "version": "1.0.0",
+  "description": "a storybook for the new mdapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "storybook" : "start-storybook -p 9001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richbai90/mdapp.git"
+  },
+  "keywords": [
+    "mdapp",
+    "storybook"
+  ],
+  "author": "Rich Baird",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/richbai90/mdapp/issues"
+  },
+  "homepage": "https://github.com/richbai90/mdapp#readme",
+  "dependencies": {
+    "material-ui": "^0.15.1",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-tap-event-plugin": "^1.0.0"
+  },
+  "devDependencies": {
+    "@kadira/storybook": "^1.35.2"
+  }
+}
